@@ -1,17 +1,18 @@
 body > div {
     display: inline-block;
     width: 1000px;
-    margin-left: calc((100% - 1000px) / 2);
+    margin-left: calc((100% -1000px) / 2);
     background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-div > header {
+header {
     display: inline-block;
     width: 100%;
 }
 header > img {
     display: inline-block;
     float: left;
-    height: 60px;    
+    height: 50px;    
 }
 nav {
     display: inline-block;
@@ -34,7 +35,7 @@ a:ntf-of-type(5) {
     text-transform: uppercase;
     border-radius: 18px;
 }
-div > main {
+main {
     display: inline-block;
     width: 100%;
     margin-top: 25px;
@@ -43,13 +44,14 @@ main > div {
     display: inline-block;
     width: 35%;
 }
-div > h1 {
+h1 {
     display: inline-block;
 }
-div > p {
+p {
     display: inline-block;
 }
 
 main > img {
     display: inline-block;
+    width: 40%;
 }
