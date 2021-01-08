@@ -1,7 +1,7 @@
 body > div {
     display: inline-block;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
     background-color: aquamarine;
 }
 div > header {
@@ -9,19 +9,39 @@ div > header {
     width: 100%;
 }
 header > img {
-display: inline-block;
-float: left;
+    display: inline-block;
+    float: left;
+    height: 60px;    
 }
-img > nav {
+nav {
     display: inline-block;
     float: right;
+    margin-top: 10px;
+}
+a {
+    display: inline-block;
+    float: left;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 5px;
+    padding-right: 20px;
+    padding-right: 20px;line-height: 20px;
+}
+a:ntf-of-type(5) {
+    border: 2px solid red;
+    margin-top: -3px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    border-radius: 18px;
 }
 div > main {
     display: inline-block;
     width: 100%;
+    margin-top: 25px;
 }
 main > div {
     display: inline-block;
+    width: 35%;
 }
 div > h1 {
     display: inline-block;
